@@ -1,0 +1,7 @@
+package com.eventbooking.dto;
+public class ChatRequest {
+    private String query;
+    private String pageContext;
+    public String getQuery() { return query; } public void setQuery(String query) { this.query = query; }
+    public String getPageContext() { return pageContext; } public void setPageContext(String pageContext) { this.pageContext = pageContext; }
+}
